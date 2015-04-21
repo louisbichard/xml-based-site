@@ -4,36 +4,50 @@
 <head>
     <title>XML Based site</title>
     <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styles/core/core.css">
     <link rel='shortcut icon' type='image/x-icon' href='./favicon.ico' />
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300' rel='stylesheet' type='text/css?v=11'>
 </head>
 
 <body>
-    <div class="container" ng-controller="mainController">
-        <div class="row">
-            <div class="col-md-12">
-                <h1>South Yorkshire Police Sailing</h1>
-            </div>
+    <div class="top-banner">
+        <img class="img-responsive" src="img/sailing/bay1.jpg" height="1936" width="1936">
+        <div class="website-title">
+            <h1 class="text-center cursive">South Yorkshire Police </h1>
+            <h1 class="text-center cursive">Offshore Sailing</h1>
         </div>
+        <!-- <img class="img-responsive" src="img/logos/redandblue.png"> -->
+    </div>
+    <div ng-controller="mainController">
         <div class="row">
-            <div class="col-md-4">
-                <h1>Navigation</h1> {{url_parameters}}
-                <xml-render data-parameters="{{url_parameters}}" data-xml="data/main.xml" data-xslt="data/main.xslt"></xml-render>
-                <accordion>
-                    <accordion-group is-open="status.open">
-                        <accordion-heading>
-                            test
-                        </accordion-heading>
-                        Some content
-                    </accordion-group>
-                </accordion>
+            <div class="col-md-2">
+                <div class="navigation">
+                    {{magic_params}}
+                    <br>
+                    <xml-render data-xml="data/main.xml" data-xslt="data/navigation.xslt" data-xsl-params="{{test_params}}"></xml-render>
+                </div>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-10">
                 <div id="content-wrapper">
                     <div class="page-content">
+                        <!-- <div class="page_breadcrumbs">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h4>
+                                    <span ng-repeat="path in current_paths"> 
+                                        <a class="breadcrumb_link" href="#{{path}}">{{path}}</a>
+                                        <span ng-if="current_paths.length > 1 && current_paths.length !== $index + 1"> &gt; </span>
+                                    </span>
+                                    </h4>
+                                </div>
+                            </div>
+                        </div> -->
                         <div class="row">
                             <div class="col-md-12">
-                                <div ng-view></div>
-
+                                <div class="content_panel">
+                                    <br>
+                                    <div ng-view></div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -41,11 +55,17 @@
             </div>
         </div>
     </div>
+    <div id="footer">
+        <div class="row">
+            <div class="col-md-12">
+                <p class="text-center">Footer</p>
+            </div>
+        </div>
+    </div>
     <!-- End Content Wrapper -->
     </div>
     <!-- End Page Wrapper -->
     <!-- End Main Content -->
-
     <script type=" text/javascript " src="bower_components/angular/angular.min.js "></script>
     <script type="text/javascript " src="bower_components/lodash/lodash.min.js "></script>
     <script type="text/javascript " src="bower_components/jquery/dist/jquery.min.js "></script>
@@ -55,7 +75,9 @@
     <script type="text/javascript " src="scripts/magic.xml.js "></script>
     <script type="text/javascript " src="scripts/app.js "></script>
     <script type="text/javascript " src="scripts/routes.js "></script>
+    <!-- CONTROLLERS -->
     <script type="text/javascript " src="scripts/main.controller.js "></script>
+    <script type="text/javascript " src="scripts/events.controller.js "></script>
 </body>
 
 </html>

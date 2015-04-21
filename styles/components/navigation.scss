@@ -1,0 +1,37 @@
+.navigation {
+    background-color: $main;
+    color: white;
+    height: 100%;
+    a:hover {
+        color: $accent;
+        color: red;
+        text-decoration: none;
+    }
+    a {
+        color: white;
+        font-weight: 200;
+    }
+    ul.nav-list {
+        padding: 0px;
+        a {
+            padding-left: 20px;
+        }
+        .main-nav-tab.active {
+            a {
+                padding-left: 15px;
+                color: $accent;
+            }
+            background-color: $canvas-colour;
+            border-left: {
+                color: red;
+                style: solid;
+                width: 5px;
+            }
+        }
+        li.main-nav-tab {
+            list-style: none;
+            color: green;
+            padding: 5px;
+        }
+    }
+}

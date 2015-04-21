@@ -1,28 +1,24 @@
 APP.config(function($routeProvider) {
-    $routeProvider
-        .when('/', {
-            templateUrl: '../views/home.html'
-        })
 
-    .when('/home', {
-        templateUrl: '../views/home.html'
-    })
-
-    .when('/events', {
-        templateUrl: '../views/events.html'
-            //controller: 'dashboardController'
-    })
-
-    .when('/notfound', {
-        templateUrl: '../views/notfound.html'
-            //controller: 'dashboardController'
-    })
-
-    /*.when('/notfound', {
-        templateUrl: '../views/utilities/notfound.html'
-    })*/
-
-    .otherwise({
-        redirectTo: '/notfound'
+    _.each([
+        '/',
+        '/home',
+        '/events',
+        '/events/:year/:month',
+        '/training'
+    ], function(val) {
+        $routeProvider
+            .when(val, {
+                templateUrl: '../views/home.html'
+            });
     });
+
+    $routeProvider
+        .when('/notfound', {
+            templateUrl: '../views/notfound.html'
+                //controller: 'dashboardController'
+        })
+        .otherwise({
+            redirectTo: '/notfound'
+        });
 });

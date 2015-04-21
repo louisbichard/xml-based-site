@@ -11,11 +11,29 @@ APP = angular.module('APP', ['ngRoute', 'ui.bootstrap'])
                     this.render();
                 },
                 render: function() {
-                    var test = magicXML.transform(attributes.xml, attributes.xslt, undefined); // undefined is the parameters
+
+                    var parameters = attributes.xslParams ? JSON.parse(attributes.xslParams) : [];
+
+
+                    var routes = location.hash.split('/');
+
+                    routes.shift();
+                    _.each(routes, function(item, index) {
+                        parameters.push({
+                            name: "location_route_" + index,
+                            value: item
+                        });
+                    });
+
+                    var test = magicXML.transform(
+                        attributes.xml,
+                        attributes.xslt,
+                        parameters
+                    );
+
                     xml_module.content.append(test);
                 }
             };
-
 
             xml_module.init();
 

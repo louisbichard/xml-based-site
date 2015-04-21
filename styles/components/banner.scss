@@ -1,0 +1,19 @@
+.top-banner {
+    img {
+        border-bottom-color: $main;
+        border-bottom-style: solid;
+        border-bottom-width: 2px;
+    }
+    .website-title {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .website-title > h1 {
+    	color: $accent;
+        margin: 5px;
+        padding: 10px;
+        background-color: white;
+        padding: 7px;
+    }
+}

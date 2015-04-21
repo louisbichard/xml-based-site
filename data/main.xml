@@ -1,15 +1,129 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <root>
+    <training>
+        <introduction>
+            <paragraph>
+                The section is committed to developing skills of its members. Although there are no formal qualifications issued to those who take part in the trips, members will gain valuable experience, and build miles on each trip at a fraction of the cost of a commercial sailing holiday.
+            </paragraph>
+            <paragraph>
+                A skippers training week runs every year in March or April. This is for qualified skippers, approved by the Section Committee, who will be skippering on one of the organised trips. The aim of the week will be to improve confidence and skills in the skippers and ensure a corporate approach to safety.
+            </paragraph>
+            <paragraph>
+                The aim is to ensure that all members participating in organised trips have as safe and enjoyable trip as possible.
+            </paragraph>
+        </introduction>
+        <future>
+            <paragraph>
+                The Section is keen to create links with other organisations (see useful Links page). Members are encouraged to attend RYA theory and practical courses to improve their safety and confidence. We will look to negotiate discounts and consider a subsidy in certain circumstances.
+            </paragraph>
+        </future>
+        <course>
+            <name>RYA Basic Sea Survival Course</name>
+            <description>
+                <paragraph>
+                    This is a 1 day course which is an excellent insight into safety equipment and procedures. The course, which includes a 2 hour session in a swimming pool, gives students an opportunity to experience swimming with their full waterproofs on, wearing a lifejacket.
+                </paragraph>
+                <paragraph>
+                    Students will also become familiar with boarding a liferaft and righting one which has capsized.
+                </paragraph>
+                <paragraph>
+                    6 members including 4 skippers have already successfully qualified. Future courses are planned to take part in Doncaster. Please contact the section for more details.
+                </paragraph>
+            </description>
+        </course>
+        <course>
+            <name>RYA/MSc Marine VHF Radio Operators Licence</name>
+            <description>
+                <paragraph>
+                    This 1 day course will qualify members to use ship to ship and ship to shore marine VHF and includes the DSC endorsement. The subsidised price for members is around £40, a significant saving on commercial courses (normally around £125).
+                </paragraph>
+                <paragraph>
+                    8 members have already sucessfully been trained and qualified. If you are interested in any future training courses, please register your interest using the Contact or Application form under the 'more...' tab above.
+                </paragraph>
+            </description>
+        </course>
+    </training>
+    <home>
+        <paragraph>The section is open to all serving and retired South Yorkshire Police officers, Staff, and their guests. The aim of the section is to provide an opportunity for members to take part in the sport of Yacht Cruising, frequently thought of as an elite sport, in safe and affordable way. Each year we aim to offer at least three trips, at less than half the cost of a commercial trip. </paragraph>
+        <paragraph>Every year we organise multi boat trips with up to 5 yachts giving up to 32 members the opportunity to cruise the Solent and beyond. </paragraph>
+        <paragraph>Trips normally cost around £200 - £250, including charter fee, food, fuel, mooring fees etc. In the past 3 years we have taken over 125 members on cruises from the Solent, Suffolk and Essex, Scotland and the Devon and Cornwall coast across to the Channel Isles. The section has even organised a 3 week trip through Greece in 2012!</paragraph>
+        <paragraph>Click on the tabs above to see up and coming events, recent news, photos from previous trips and our constitution and rules of membership.</paragraph>
+        <paragraph>If you would like more information, please use the contact form. We aim to respond to your message within 48 hours. </paragraph>
+    </home>
     <event>
         <title>SYP Offshore Sailing Section AGM</title>
-        <date>20th February 2015</date>
+        <start_date>
+            <date>20th</date>
+            <month>February</month>
+            <year>2015</year>
+        </start_date>
         <description>
             Please contact the secretary, Noel Lightfoot through SYPsailing@gmail.,com for details of the location and time of the AGM. All section members are welcome.
         </description>
         <availability>
-            2
+            10
         </availability>
         <price>20</price>
+    </event>
+    <event>
+        <title>SYP Offshore Sailing Section AGM</title>
+        <start_date>
+            <date>16th</date>
+            <month>May</month>
+            <year>2015</year>
+        </start_date>
+        <description>
+            7 day cruise around the Isle of Skye circumnavigation of the Isle of Skye on the west coast of Scotland. We have reserved a Beneteau Oceanis 393 yacht with www.skyeyachts.co.uk. (Further yachts are available subject to the level of interest). The cost per person is £300 to £350 to include the fuel, gas, mooring fees, outboard motor for tender, and provisioning for breakfast, lunch and 2 evening meals on board. A deposit of £75 per person is required to secure a berth.
+        </description>
+        <availability>
+            10
+        </availability>
+        <price>300</price>
+        <deposit>
+            75
+        </deposit>
+    </event>
+    <event>
+        <title>Skippers Training</title>
+        <start_date>
+            <date>30th</date>
+            <month>March</month>
+            <year>2015</year>
+        </start_date>
+        <end_date>
+            <date>4th</date>
+            <month>April</month>
+            <year>2015</year>
+        </end_date>
+        <description>
+            Section skippers will take part in a 5 day offshore training week to develop and hone skills. This follows on from the successful training trips since 2011. We have typically had a variety of winds up to force 9, giving skippers the opportunity to improve their handling under power and sail and gain confidence and experience. Members should hold a minimum of Day Skipper practical qualification and be prepared to skipper any trip approved by the committee for 2015. Please contact the Section Secretary, Noel Lightfoot through SYPsailing@gmail.com for more details.
+        </description>
+        <availability>
+            0
+        </availability>
+        <price>20</price>
+    </event>
+    <event>
+        <title>
+            PSUK Offshore Sailing Championships / World Police Champs
+        </title>
+        <start_date>
+            <date>18th</date>
+            <month>May</month>
+            <year>2015</year>
+        </start_date>
+        <end_date>
+            <date>22nd</date>
+            <month>May</month>
+            <year>2015</year>
+        </end_date>
+        <description>
+            South Yorkshire Police Offshore Sailing Section are looking for members who wish to crew, and a qualified skipper to enter a yacht into the forthcoming Regatta, being hosted by the Metropolitan Police from Cowes, Isle of Wight, Hampshire. 8 crew will participate.
+        </description>
+        <availability>
+            8
+        </availability>
+        <price>400</price>
     </event>
     <navigation>
         <item>
@@ -22,11 +136,7 @@
         </item>
         <item>
             <title>Training</title>
-            <route>Route is something</route>
-        </item>
-        <item>
-            <title>Events 2014 - 2015</title>
-            <route>Route is something</route>
+            <route>training</route>
         </item>
         <item>
             <title>SYP challenge 2013</title>
