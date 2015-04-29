@@ -2,14 +2,29 @@
 	font-family: 'Satisfy', cursive;
 }
 
-h2 {
-	background-color: $main-sub;
-	padding: 10px;
-	color: white;
+h1, h2, h3, h4, h5, h6 {
+	padding: 10px;	
 }
 
 p {
 	padding: 8px
+}
+
+p {
+	font-size: 1.5em;
+}
+
+p.small {
+	font-size: 1em;
+}
+
+p.lead {
+	font-size: 2em;
+}
+
+.block-heading {
+	background-color: $main-sub;
+	color: white;	
 }
 
 body {

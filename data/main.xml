@@ -1,5 +1,55 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <root>
+    <sypchallenge>
+        <sponsors>
+            <name>Fairview sailing</name>
+            <description>
+                SYP Offshore Sailing Section have chartered from Fairview Sailing since 1999. Based on the River Hamble, with easy access to the Solent, Isle of Wight and North France coast, their fleet consists of over 40 yachts including 20 Beneteau Oceanis 37s launched between 2010 and 2012. They have always provided an excellent service with good quality, modern, clean yachts.
+            </description>
+        </sponsors>
+        <introduction>
+            In 2012, the SYP Offshore Sailing Section challenged all 43 England &amp; Wales Police Forces to a race around the Isle of Wight in aid of Macmillan Cancer Support. 10 teams took part in the event which took place on Tuesday 10th September 2013.
+        </introduction>
+        <teams>
+            <region name="South Yorkshire">
+                <teamname>Hot Stuff</teamname>
+                <teamname>Faux Pas</teamname>
+                <website>http://virginmoneygiving.com/team/SYPchallengeSouthYorkshire</website>
+            </region>
+            <region name="Avon &amp; Somerset">
+                <teamname>Porquis Pas</teamname>
+                <website>http://virginmoneygiving.com/team/SYPchallengeAvon_Somerset</website>
+            </region>
+            <region name="Cambridgeshire">
+                <teamname>Carte Blanche</teamname>
+                <website>http://virginmoneygiving.com/team/SYPchallengeCambridgeshire</website>
+            </region>
+            <region name="City of London">
+                <teamname>Soiree</teamname>
+                <website>http://virginmoneygiving.com/team/SYPchallengeCityofLondon</website>
+            </region>
+            <region name="Cleveland">
+                <teamname>D'Artagnian</teamname>
+                <website>http://virginmoneygiving.com/team/SYPchallengeCleveland</website>
+            </region>
+            <region name="Derbyshire">
+                <teamname>Protoge</teamname>
+                <teamname>Modernistic Lady</teamname>
+                <website>http://virginmoneygiving.com/team/SYPchallengeDerbyshire</website>
+            </region>
+            <region name="Hertfordshire">
+                <teamname>C'est Ci Bon</teamname>
+                <website>http://virginmoneygiving.com/team/SYPchallengeHertfordshire</website>
+            </region>
+            <region name="Humberside">
+                <teamname>Mon Ami</teamname>
+                <website>http://virginmoneygiving.com/team/SYPchallengeHumberside</website>
+            </region>
+        </teams>
+        <raised>
+            16,139.63
+        </raised>
+    </sypchallenge>
     <training>
         <introduction>
             <paragraph>
@@ -44,11 +94,20 @@
         </course>
     </training>
     <home>
-        <paragraph>The section is open to all serving and retired South Yorkshire Police officers, Staff, and their guests. The aim of the section is to provide an opportunity for members to take part in the sport of Yacht Cruising, frequently thought of as an elite sport, in safe and affordable way. Each year we aim to offer at least three trips, at less than half the cost of a commercial trip. </paragraph>
-        <paragraph>Every year we organise multi boat trips with up to 5 yachts giving up to 32 members the opportunity to cruise the Solent and beyond. </paragraph>
-        <paragraph>Trips normally cost around £200 - £250, including charter fee, food, fuel, mooring fees etc. In the past 3 years we have taken over 125 members on cruises from the Solent, Suffolk and Essex, Scotland and the Devon and Cornwall coast across to the Channel Isles. The section has even organised a 3 week trip through Greece in 2012!</paragraph>
-        <paragraph>Click on the tabs above to see up and coming events, recent news, photos from previous trips and our constitution and rules of membership.</paragraph>
-        <paragraph>If you would like more information, please use the contact form. We aim to respond to your message within 48 hours. </paragraph>
+        <whoweare>
+            A section comprised of and open to all serving and retired South Yorkshire Police officers, staff and their guests.
+        </whoweare>
+        <whatwedo>
+            Provide an opportunity for members to take part in the sport of Yacht Cruising, frequently thought of as an elite sport, safely and affordablely. Each year we aim to offer at least three trips (5 yachts and 32 members) at less than half the cost of a commercial trip.
+        </whatwedo>
+        <howwedoit>
+            In the past 3 years we have taken over 125 members on cruises from the Solent, Suffolk and Essex, Scotland and the Devon and Cornwall coast across to the Channel Isles. The section has even organised a 3 week trip through Greece in 2012
+        </howwedoit>
+        <strapline>The Solent and beyond ...</strapline>
+        <costs>
+            Trips normally cost around £200-£250, including charter fee, food, fuel, mooring fees etc.
+        </costs>
+        <contact>If you would like more information, please use the contact form. We aim to respond to your message within 48 hours. </contact>
     </home>
     <event>
         <title>SYP Offshore Sailing Section AGM</title>
@@ -66,14 +125,14 @@
         <price>20</price>
     </event>
     <event>
-        <title>SYP Offshore Sailing Section AGM</title>
+        <title>7 Day Cruise Around The Isle Of Skye</title>
         <start_date>
             <date>16th</date>
             <month>May</month>
             <year>2015</year>
         </start_date>
         <description>
-            7 day cruise around the Isle of Skye circumnavigation of the Isle of Skye on the west coast of Scotland. We have reserved a Beneteau Oceanis 393 yacht with www.skyeyachts.co.uk. (Further yachts are available subject to the level of interest). The cost per person is £300 to £350 to include the fuel, gas, mooring fees, outboard motor for tender, and provisioning for breakfast, lunch and 2 evening meals on board. A deposit of £75 per person is required to secure a berth.
+            Circumnavigation of the Isle of Skye on the west coast of Scotland. We have reserved a Beneteau Oceanis 393 yacht with www.skyeyachts.co.uk. (Further yachts are available subject to the level of interest). The cost per person is £300 to £350 to include the fuel, gas, mooring fees, outboard motor for tender, and provisioning for breakfast, lunch and 2 evening meals on board. A deposit of £75 per person is required to secure a berth.
         </description>
         <availability>
             10
@@ -140,7 +199,7 @@
         </item>
         <item>
             <title>SYP challenge 2013</title>
-            <route>Route is something</route>
+            <route>sypchallenge</route>
         </item>
         <item>
             <title>Gallery</title>

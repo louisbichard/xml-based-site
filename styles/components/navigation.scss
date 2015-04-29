@@ -15,7 +15,7 @@
         padding: 0px;
         a {
             padding-left: 20px;
-        }
+        }        
         .main-nav-tab.active {
             a {
                 padding-left: 15px;
@@ -30,7 +30,10 @@
         }
         li.main-nav-tab {
             list-style: none;
-            color: green;
+            padding: 5px;
+        }
+        li.sub-nav-tab {
+            list-style: none;
             padding: 5px;
         }
     }

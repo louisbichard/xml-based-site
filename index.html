@@ -5,6 +5,8 @@
     <title>XML Based site</title>
     <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="styles/core/core.css">
+    <link rel="stylesheet" type="text/css" href="bower_components/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="styles/libs/animate.css">
     <link rel='shortcut icon' type='image/x-icon' href='./favicon.ico' />
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300' rel='stylesheet' type='text/css?v=11'>
 </head>
@@ -46,7 +48,7 @@
                             <div class="col-md-12">
                                 <div class="content_panel">
                                     <br>
-                                    <div ng-view></div>
+                                    <div class="animated fadeIn" ng-view></div>
                                 </div>
                             </div>
                         </div>
@@ -57,10 +59,34 @@
     </div>
     <div id="footer">
         <div class="row">
-            <div class="col-md-12">
-                <p class="text-center">Footer</p>
+            <br>
+            <div class="col-md-2 col-md-offset-4">
+                <p class="text-center">
+                    <a href="https://twitter.com/sypsailing">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                </p>
+            </div>
+            <div class="col-md-2">
+                <p class="text-center">
+                    <a href="https://www.facebook.com/sypoffshoresailing">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                </p>
             </div>
         </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p class="text-center">
+                    <i class="fa fa-copyright"></i>
+                    South Yorkshire Police
+                </p>
+                <p class="text-center">
+                    <a href="#styleguide">Styleguide</a>
+                </p>                
+            </div>
+        </div>
+        <br>
     </div>
     <!-- End Content Wrapper -->
     </div>
@@ -74,10 +100,10 @@
     <script src='./bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js' type='text/javascript'></script>
     <script type="text/javascript " src="scripts/magic.xml.js "></script>
     <script type="text/javascript " src="scripts/app.js "></script>
+    <script type="text/javascript " src="scripts/xml-render.directive.js"></script>
     <script type="text/javascript " src="scripts/routes.js "></script>
     <!-- CONTROLLERS -->
     <script type="text/javascript " src="scripts/main.controller.js "></script>
-    <script type="text/javascript " src="scripts/events.controller.js "></script>
 </body>
 
 </html>

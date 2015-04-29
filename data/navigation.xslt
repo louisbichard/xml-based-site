@@ -20,7 +20,7 @@
                   <xsl:if test="route = 'events'">
                   	<ul>
                     	<xsl:for-each select="/root/event">
-	                    	<li>
+	                    	<li class=".sub-nav-tab">
 		                    	<a href="#events/{start_date/year}/{start_date/month}"> 
 		                    		<xsl:value-of select="start_date/month" />&#160;<xsl:value-of select="start_date/year" /> 
       									</a>

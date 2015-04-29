@@ -2,13 +2,24 @@
 .cursive {
   font-family: 'Satisfy', cursive; }
 
-h2 {
-  background-color: #90CAF9;
-  padding: 10px;
-  color: white; }
+h1, h2, h3, h4, h5, h6 {
+  padding: 10px; }
 
 p {
   padding: 8px; }
+
+p {
+  font-size: 1.5em; }
+
+p.small {
+  font-size: 1em; }
+
+p.lead {
+  font-size: 2em; }
+
+.block-heading {
+  background-color: #90CAF9;
+  color: white; }
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -24,7 +35,11 @@ body {
       padding-right: 30px;
       padding-bottom: 30px;
       padding-top: 11px;
-      margin-top: 20px; }
+      margin-top: 20px;
+      margin-bottom: 20px; }
+
+.btn {
+  border-radius: 0px; }
 
 .navigation {
   background-color: #2196F3;
@@ -51,7 +66,9 @@ body {
         color: #F44336; }
     .navigation ul.nav-list li.main-nav-tab {
       list-style: none;
-      color: green;
+      padding: 5px; }
+    .navigation ul.nav-list li.sub-nav-tab {
+      list-style: none;
       padding: 5px; }
 
 .navigation {
@@ -79,7 +96,9 @@ body {
         color: #F44336; }
     .navigation ul.nav-list li.main-nav-tab {
       list-style: none;
-      color: green;
+      padding: 5px; }
+    .navigation ul.nav-list li.sub-nav-tab {
+      list-style: none;
       padding: 5px; }
 
 .top-banner img {
