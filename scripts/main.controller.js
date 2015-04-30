@@ -1,20 +1,21 @@
 APP.controller('mainController', function($scope, $routeParams, $location) {
 
-    $scope.current_paths = [];
-    $scope.test_params = [{
-        "name": "filterById",
-        "value": "2"
-    }];
-
-    $scope.xml_details = {
-        'Home': "xslt/home.xslt",
-        'Events': "xslt/events.xslt",
-        'Training': "xslt/training.xslt",
-        'Sypchallenge': "xslt/sypchallenge.xslt",
-        'Styleguide': "xslt/styleguide.xslt",
-        'Committee': "xslt/committee.xslt",
-        'Links': "xslt/links.xslt"
-    };
+    $scope = _.extend($scope, {
+        current_paths: [],
+        test_params: [{
+            "name": "filterById",
+            "value": "2"
+        }],
+        xml_details: {
+            'Home': "xslt/home.xslt",
+            'Events': "xslt/events.xslt",
+            'Training': "xslt/training.xslt",
+            'Sypchallenge': "xslt/sypchallenge.xslt",
+            'Styleguide': "xslt/styleguide.xslt",
+            'Committee': "xslt/committee.xslt",
+            'Links': "xslt/links.xslt"
+        }
+    });
 
     var main_module = {
         init: function() {
@@ -42,6 +43,8 @@ APP.controller('mainController', function($scope, $routeParams, $location) {
             });
         }
     };
+
+
 
     main_module.init();
 

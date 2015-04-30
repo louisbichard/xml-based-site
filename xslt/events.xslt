@@ -7,6 +7,7 @@
 
   <xsl:template match="/">
       <xsl:for-each select="root/event">        
+        tests
             <xsl:if test="$location_route_1 and start_date/year = $location_route_1 and start_date/month = $location_route_2" >
 
             <h3> <xsl:value-of select="title" /> 
