@@ -9,13 +9,17 @@ p {
   padding: 8px; }
 
 p {
-  font-size: 1.5em; }
+  font-size: 1.2em; }
 
 p.small {
   font-size: 1em; }
 
 p.lead {
   font-size: 2em; }
+
+p.caption {
+  font-size: 1em;
+  opacity: 0.5; }
 
 .block-heading {
   background-color: #90CAF9;
@@ -71,6 +75,24 @@ body {
       list-style: none;
       padding: 5px; }
 
+/*
+
+If you want this to work then use: 
+
+http://jsfiddle.net/livibetter/HV9HM/
+
+
+
+ #sticky {
+    border-radius: 0.5ex;
+}
+
+#sticky.stick {
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+    border-radius: 0 0 0.5em 0.5em;
+} */
 .navigation {
   background-color: #2196F3;
   color: white;
@@ -101,6 +123,24 @@ body {
       list-style: none;
       padding: 5px; }
 
+/*
+
+If you want this to work then use: 
+
+http://jsfiddle.net/livibetter/HV9HM/
+
+
+
+ #sticky {
+    border-radius: 0.5ex;
+}
+
+#sticky.stick {
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+    border-radius: 0 0 0.5em 0.5em;
+} */
 .top-banner img {
   border-bottom-color: #2196F3;
   border-bottom-style: solid;

@@ -1,11 +1,63 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <root>
+    <committee>
+        <member name="Colin Lightfoot" role="Chairman">
+            My first sailing experience was a weeks holiday on a small yacht on Lake Windemere. It was big enough for four people and one large dog. This was in 1969 as a young police constable in the West Riding Constabulary. In the following years, my friend and colleague, Mick Caukwell, organised several offshore sailing trips around the Devon and Cornwall coast exploring places like Plymouth, Mevagissey, Looe etc. We would use sailing boats up to forty foot including catermarans. I have crewed racing dingys including Lasers, Enterprise etc but quickly learned that I was not built for such explosive exercise. I then had the foresight to encourage my son Noel to become interested in sailing which he did professionally. I now enjoy offshore cruising with the South Yorks Police sailing club of which Noel is the current Secretary. I have completed a 'sea survival' course and prior to retirement was chairman of SYP Federation.
+        </member>
+        <member name="Noel Lightfoot" role="Secretary">
+            My sailing career began in 1985 when I took part in a school trip to Bradwell Sailing Centre which sparked my interest. I then cycled whenever I could to Rother Valley and Ulley Reservoirs in Rotherham where I hired Lasers or Toppers to gain experience. In 1989 I returned to Bradwell as a dinghy instructor and the following 2 years instructing at Ravens Ait, Surbiton, where I became chief instructor. During those 3 years I took every opportunity to gain yachting experience and qualifications. My yachting career began in 1992 as an instructor on a Sigma 38 'Wavetrain', from Shotley Marina in Ipswich. Later that year I gained the RYA DTp Yachtmaster Instructor qualification. Having spent 1993 as a commercial skipper on a 60' yacht in Antibes (France), I then worked as an instructor on the first Professional Crew Training courses for UKSA in Cowes, and for Flying Fish in Sydney (Australia). I then spent 4 years I spent as a Yacht Broker on the East Coast within the prestigious Oyster group selling new Westerly and Beneteau Yachts as well as second hand Oysters. My achievements include trans-Atlantic crossings and a 2nd in class in Cowes Week 1992 on an Oyster 41. My favourite yacht is the She 36 although I wouldn't say no to a new Oyster 82! I joined SYP in 1998 and enjoy being a part of the Sailing Section. It is great to give others the chance to take part in sailing at a reasonable cost. I am proud to have introduced many of our staff to sailing, some of who have gone on to gain qualifications and become skippers.
+        </member>
+        <member name="Paul Holt" role="Treasurer">
+            I took up sailing late, after several annual holidays in Salcombe, Devon with the family I completed the RYA Level I &amp; II Dinghy Course at Rother Valley Country Park and bought a Laser 13 dinghy, which I keep at the park and sail with Firbeck Sailing Club. In 2003, I completed the RYA Day Skipper Theory Course at Rother Valley College and followed it up with a five day RYA Day Skipper Practical Course on the Solent with Four Winds Sailing School. Since qualifying, I have chartered yachts on flotilla &amp; bareboat in the Greek Islands and chartered bareboat twice in the British Virgin Islands. I have also sailed across the English Channel to Cherbourg and back with a mate in his 27ft sloop. I hope to complete a Yachtmaster Course at some stage and the experience gained skippering with the SYP OSS has helped with mile building and experience
+        </member>
+        <member name="Trevor Bichard" role="Deputy Chairman">
+            I have always been interested in sailing and taken the opportunity to sail dinghies whenever the opportunity on holiday occurred. Being self taught lead to many disasters but always fun. In the main I preferred hobie cats but longed for bigger things. Through the SYP OSS I had the chance to be a crew member on a week long trip in the Solent visiting several marinas but have to say my favourite mooring was Lulworth Cove. Following that trip I was hooked not just to be a passenger but to skipper off shore. Since then I have sorted out my dinghy sailing skills with level 1 and 2 qualifications obtained at Rother Valley country park. The aim there was to become more 'wind aware and prevent any further dunkings as a result of self taught skills. I completed my Day Skipper Theory in 2010 at City College Sheffield through Sail north along with VHF-DSC radio qualifications. In July 2012 I gained my RYA Day Skipper practical qualification and am now looking to build my experience. I also have a share in a 27 foot yacht in the Lake District.
+        </member>
+    </committee>
     <sypchallenge>
+        <competitions>
+            <competition name="Fastest team around the island">
+                <team>Hertfordshire</team>
+                <team>Cleveland</team>
+                <team>Cambs</team>
+            </competition>
+            <competition name="Most funds raised">
+                <team>Avon &amp; Somerset (£2,525)</team>
+                <team>Herts (£2,393)</team>
+                <team>Cleveland (£1,857)</team>
+            </competition>
+            <competition name="Quiz winner">
+                <team>Cleveland (108)</team>
+                <team>(Joint) Herts &amp; Derbyshire (97)</team>
+            </competition>
+        </competitions>
         <sponsors>
-            <name>Fairview sailing</name>
-            <description>
-                SYP Offshore Sailing Section have chartered from Fairview Sailing since 1999. Based on the River Hamble, with easy access to the Solent, Isle of Wight and North France coast, their fleet consists of over 40 yachts including 20 Beneteau Oceanis 37s launched between 2010 and 2012. They have always provided an excellent service with good quality, modern, clean yachts.
-            </description>
+            <sponsor>
+                <name>Fairview sailing</name>
+                <description>
+                    SYP Offshore Sailing Section have chartered from Fairview Sailing since 1999. Based on the River Hamble, with easy access to the Solent, Isle of Wight and North France coast, their fleet consists of over 40 yachts including 20 Beneteau Oceanis 37s launched between 2010 and 2012. They have always provided an excellent service with good quality, modern, clean yachts.
+                </description>
+                <image>img/sponsors/fairview.png</image>
+                <website>http://fairviewsailing.co.uk</website>
+            </sponsor>
+            <sponsor>
+                <name>Flying fish</name>
+                <description>
+                    Flying Fish offer professional training and international adventure on the sea and the snow. Join Flying Fish for vocational qualifications and access to our worldwide recruitment service in yachting, water sports and winter sports. Gap year students, Career-breakers, Experienced instructors, yacht skippers and crew come to Flying Fish for professional development, commercial upgrades and some of the world's greatest yacht racing events. Everyone is welcome at Flying Fish. We have an exciting selection of short recreational courses, our Sea and Snow Holidays, at all our training centres. We also run yacht charter fleets in two of the world's favourite sailing locations: Sydney and Cowes. We guarantee you fun and excitement.
+                </description>
+                <website>
+                    http://flyingfishonline.com
+                </website>
+                <image>img/sponsors/flyingfish.gif</image>
+            </sponsor>
+            <sponsor>
+                <name>Astins provided SYP Challenge with the trophy for first prize.</name>
+                <description>
+                    They have gone from strength to strength, supplying many sailing clubs and associations right across the world, from Hong Kong to Hull, from the Virgin Islands to The Isle of Wight. With an in-house design team to design and create all stainless steel trophies on show and collaborate with an extremely talented glass artist to produce a range of glass and steel awards. Being keen sailors with art and design backgrounds we have been proud to see our work being used for a range of projects including: Yachts and Yachting Awards 2013, Extreme 40s World Series Trophy, Artemis Challenge Trophy, Port Cities Challenge Trophy - San Diego leg of the America's Cup, Awards for British Olympic Sailing Team 2008.
+                </description>
+                <website>http://astins.co.uk</website>
+                <image>img/sponsors/astins.jpg</image>
+            </sponsor>
         </sponsors>
         <introduction>
             In 2012, the SYP Offshore Sailing Section challenged all 43 England &amp; Wales Police Forces to a race around the Isle of Wight in aid of Macmillan Cancer Support. 10 teams took part in the event which took place on Tuesday 10th September 2013.
@@ -212,6 +264,14 @@
         <item>
             <title>Blogs</title>
             <route>Route is something</route>
+        </item>
+        <item>
+            <title>Committee</title>
+            <route>committee</route>
+        </item>
+        <item>
+            <title>Links</title>
+            <route>links</route>
         </item>
         <item>
             <title>Contact us</title>

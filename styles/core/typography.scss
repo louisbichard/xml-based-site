@@ -11,7 +11,7 @@ p {
 }
 
 p {
-	font-size: 1.5em;
+	font-size: 1.2em;
 }
 
 p.small {
@@ -20,6 +20,11 @@ p.small {
 
 p.lead {
 	font-size: 2em;
+}
+
+p.caption {
+	font-size: 1em;
+	opacity: 0.5;
 }
 
 .block-heading {

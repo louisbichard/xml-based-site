@@ -7,7 +7,9 @@ APP.config(function($routeProvider) {
         '/events/:year/:month',
         '/training',
         '/sypchallenge',
-        '/styleguide'
+        '/styleguide',
+        '/committee',
+        '/links'
     ], function(val) {
         $routeProvider
             .when(val, {

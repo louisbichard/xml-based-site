@@ -38,3 +38,23 @@
         }
     }
 }
+
+
+/*
+
+If you want this to work then use: 
+
+http://jsfiddle.net/livibetter/HV9HM/
+
+
+
+ #sticky {
+    border-radius: 0.5ex;
+}
+
+#sticky.stick {
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+    border-radius: 0 0 0.5em 0.5em;
+} */

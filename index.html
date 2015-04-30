@@ -22,14 +22,15 @@
     </div>
     <div ng-controller="mainController">
         <div class="row">
-            <div class="col-md-2">
-                <div class="navigation">
+            <div class="col-md-2 col-sm-2 col-xs-2">
+                <div id="sticky-anchor"></div>
+                <div id="sticky" class="navigation stick">
                     {{magic_params}}
                     <br>
-                    <xml-render data-xml="data/main.xml" data-xslt="data/navigation.xslt" data-xsl-params="{{test_params}}"></xml-render>
+                    <xml-render data-xml="xml/main.xml" data-xslt="xslt/navigation.xslt" data-xsl-params="{{test_params}}"></xml-render>
                 </div>
             </div>
-            <div class="col-md-10">
+            <div class="col-md-10 col-sm-10 col-xs-10">
                 <div id="content-wrapper">
                     <div class="page-content">
                         <!-- <div class="page_breadcrumbs">
@@ -78,12 +79,11 @@
         <div class="row">
             <div class="col-md-12">
                 <p class="text-center">
-                    <i class="fa fa-copyright"></i>
-                    South Yorkshire Police
+                    <i class="fa fa-copyright"></i> South Yorkshire Police
                 </p>
                 <p class="text-center">
                     <a href="#styleguide">Styleguide</a>
-                </p>                
+                </p>
             </div>
         </div>
         <br>

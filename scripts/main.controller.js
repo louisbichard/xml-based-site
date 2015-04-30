@@ -7,11 +7,13 @@ APP.controller('mainController', function($scope, $routeParams, $location) {
     }];
 
     $scope.xml_details = {
-        'Home': "data/home.xslt",
-        'Events': "data/events.xslt",
-        'Training': "data/training.xslt",
-        'Sypchallenge': "data/sypchallenge.xslt",
-        'Styleguide': "data/styleguide.xslt"
+        'Home': "xslt/home.xslt",
+        'Events': "xslt/events.xslt",
+        'Training': "xslt/training.xslt",
+        'Sypchallenge': "xslt/sypchallenge.xslt",
+        'Styleguide': "xslt/styleguide.xslt",
+        'Committee': "xslt/committee.xslt",
+        'Links': "xslt/links.xslt"
     };
 
     var main_module = {
