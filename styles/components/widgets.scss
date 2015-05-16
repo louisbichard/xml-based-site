@@ -1,0 +1,16 @@
+.widget {
+	// Default widget height
+	height: 200px;
+    overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+.widget.widget-large {
+	height: 800px;
+}
+.widget.widget-medium {
+	height: 400px;
+}
+.widget.widget-small {
+	height: 200px;
+}

@@ -12,8 +12,18 @@
             <xsl:value-of select="@role" />
             - 
             <xsl:value-of select="@name" />            
-          </h2>
-          <p><xsl:value-of select="current()" /></p>
+
+          </h2>          
+          <div class="row">
+            <div class="col-md-3">
+              <img class="img-responsive">
+                  <xsl:attribute name="src">../img/committee/<xsl:value-of select="@img" />.jpg</xsl:attribute>
+              </img>
+            </div>
+            <div class="col-md-9">
+              <p><xsl:value-of select="current()" /></p>    
+            </div>
+          </div>          
         </xsl:for-each>  
   </xsl:template>
 </xsl:stylesheet>

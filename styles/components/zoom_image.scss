@@ -1,0 +1,15 @@
+.zoom_img img {
+    -moz-transition: -moz-transform 0.2s ease-in;
+    -webkit-transition: -webkit-transform 0.2s ease-in;
+    -o-transition: -o-transform 0.2s ease-in;
+    z-index: 0;
+}
+
+.zoom_img img:hover {
+    cursor: pointer;
+    position: relative;
+    z-index: 9;
+    -moz-transform: scale(2);
+    -webkit-transform: scale(2);
+    -o-transform: scale(2);
+}

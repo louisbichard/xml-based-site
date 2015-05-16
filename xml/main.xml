@@ -1,16 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE root [
+    
+    <!-- NOTE: Introduction section -->
+<!ELEMENT introduction (#PCDATA)>
+<!-- NOTE: Commitee section -->
+<!ELEMENT commitee (member*)>
+<!ELEMENT member (#PCDATA)>
+<!ATTLIST member name CDATA "No name given">
+<!ATTLIST member role CDATA "No role given">
+<!ATTLIST member img CDATA #REQUIRED>
+]>
 <root>
     <committee>
-        <member name="Colin Lightfoot" role="Chairman">
+        <member name="Colin Lightfoot" role="Chairman" img="colin">
             My first sailing experience was a weeks holiday on a small yacht on Lake Windemere. It was big enough for four people and one large dog. This was in 1969 as a young police constable in the West Riding Constabulary. In the following years, my friend and colleague, Mick Caukwell, organised several offshore sailing trips around the Devon and Cornwall coast exploring places like Plymouth, Mevagissey, Looe etc. We would use sailing boats up to forty foot including catermarans. I have crewed racing dingys including Lasers, Enterprise etc but quickly learned that I was not built for such explosive exercise. I then had the foresight to encourage my son Noel to become interested in sailing which he did professionally. I now enjoy offshore cruising with the South Yorks Police sailing club of which Noel is the current Secretary. I have completed a 'sea survival' course and prior to retirement was chairman of SYP Federation.
         </member>
-        <member name="Noel Lightfoot" role="Secretary">
+        <member name="Noel Lightfoot" role="Secretary" img="noel">
             My sailing career began in 1985 when I took part in a school trip to Bradwell Sailing Centre which sparked my interest. I then cycled whenever I could to Rother Valley and Ulley Reservoirs in Rotherham where I hired Lasers or Toppers to gain experience. In 1989 I returned to Bradwell as a dinghy instructor and the following 2 years instructing at Ravens Ait, Surbiton, where I became chief instructor. During those 3 years I took every opportunity to gain yachting experience and qualifications. My yachting career began in 1992 as an instructor on a Sigma 38 'Wavetrain', from Shotley Marina in Ipswich. Later that year I gained the RYA DTp Yachtmaster Instructor qualification. Having spent 1993 as a commercial skipper on a 60' yacht in Antibes (France), I then worked as an instructor on the first Professional Crew Training courses for UKSA in Cowes, and for Flying Fish in Sydney (Australia). I then spent 4 years I spent as a Yacht Broker on the East Coast within the prestigious Oyster group selling new Westerly and Beneteau Yachts as well as second hand Oysters. My achievements include trans-Atlantic crossings and a 2nd in class in Cowes Week 1992 on an Oyster 41. My favourite yacht is the She 36 although I wouldn't say no to a new Oyster 82! I joined SYP in 1998 and enjoy being a part of the Sailing Section. It is great to give others the chance to take part in sailing at a reasonable cost. I am proud to have introduced many of our staff to sailing, some of who have gone on to gain qualifications and become skippers.
         </member>
-        <member name="Paul Holt" role="Treasurer">
+        <member name="Paul Holt" role="Treasurer" img="paul">
             I took up sailing late, after several annual holidays in Salcombe, Devon with the family I completed the RYA Level I &amp; II Dinghy Course at Rother Valley Country Park and bought a Laser 13 dinghy, which I keep at the park and sail with Firbeck Sailing Club. In 2003, I completed the RYA Day Skipper Theory Course at Rother Valley College and followed it up with a five day RYA Day Skipper Practical Course on the Solent with Four Winds Sailing School. Since qualifying, I have chartered yachts on flotilla &amp; bareboat in the Greek Islands and chartered bareboat twice in the British Virgin Islands. I have also sailed across the English Channel to Cherbourg and back with a mate in his 27ft sloop. I hope to complete a Yachtmaster Course at some stage and the experience gained skippering with the SYP OSS has helped with mile building and experience
         </member>
-        <member name="Trevor Bichard" role="Deputy Chairman">
+        <member name="Trevor Bichard" role="Deputy Chairman" img="trevor">
             I have always been interested in sailing and taken the opportunity to sail dinghies whenever the opportunity on holiday occurred. Being self taught lead to many disasters but always fun. In the main I preferred hobie cats but longed for bigger things. Through the SYP OSS I had the chance to be a crew member on a week long trip in the Solent visiting several marinas but have to say my favourite mooring was Lulworth Cove. Following that trip I was hooked not just to be a passenger but to skipper off shore. Since then I have sorted out my dinghy sailing skills with level 1 and 2 qualifications obtained at Rother Valley country park. The aim there was to become more 'wind aware and prevent any further dunkings as a result of self taught skills. I completed my Day Skipper Theory in 2010 at City College Sheffield through Sail north along with VHF-DSC radio qualifications. In July 2012 I gained my RYA Day Skipper practical qualification and am now looking to build my experience. I also have a share in a 27 foot yacht in the Lake District.
         </member>
     </committee>
@@ -161,121 +172,115 @@
         </costs>
         <contact>If you would like more information, please use the contact form. We aim to respond to your message within 48 hours. </contact>
     </home>
-    <event>
-        <title>SYP Offshore Sailing Section AGM</title>
-        <start_date>
-            <date>20th</date>
-            <month>February</month>
-            <year>2015</year>
-        </start_date>
-        <description>
-            Please contact the secretary, Noel Lightfoot through SYPsailing@gmail.,com for details of the location and time of the AGM. All section members are welcome.
-        </description>
-        <availability>
-            10
-        </availability>
-        <price>20</price>
-    </event>
-    <event>
-        <title>7 Day Cruise Around The Isle Of Skye</title>
-        <start_date>
-            <date>16th</date>
-            <month>May</month>
-            <year>2015</year>
-        </start_date>
-        <description>
-            Circumnavigation of the Isle of Skye on the west coast of Scotland. We have reserved a Beneteau Oceanis 393 yacht with www.skyeyachts.co.uk. (Further yachts are available subject to the level of interest). The cost per person is £300 to £350 to include the fuel, gas, mooring fees, outboard motor for tender, and provisioning for breakfast, lunch and 2 evening meals on board. A deposit of £75 per person is required to secure a berth.
-        </description>
-        <availability>
-            10
-        </availability>
-        <price>300</price>
-        <deposit>
-            75
-        </deposit>
-    </event>
-    <event>
-        <title>Skippers Training</title>
-        <start_date>
-            <date>30th</date>
-            <month>March</month>
-            <year>2015</year>
-        </start_date>
-        <end_date>
-            <date>4th</date>
-            <month>April</month>
-            <year>2015</year>
-        </end_date>
-        <description>
-            Section skippers will take part in a 5 day offshore training week to develop and hone skills. This follows on from the successful training trips since 2011. We have typically had a variety of winds up to force 9, giving skippers the opportunity to improve their handling under power and sail and gain confidence and experience. Members should hold a minimum of Day Skipper practical qualification and be prepared to skipper any trip approved by the committee for 2015. Please contact the Section Secretary, Noel Lightfoot through SYPsailing@gmail.com for more details.
-        </description>
-        <availability>
-            0
-        </availability>
-        <price>20</price>
-    </event>
-    <event>
-        <title>
-            PSUK Offshore Sailing Championships / World Police Champs
-        </title>
-        <start_date>
-            <date>18th</date>
-            <month>May</month>
-            <year>2015</year>
-        </start_date>
-        <end_date>
-            <date>22nd</date>
-            <month>May</month>
-            <year>2015</year>
-        </end_date>
-        <description>
-            South Yorkshire Police Offshore Sailing Section are looking for members who wish to crew, and a qualified skipper to enter a yacht into the forthcoming Regatta, being hosted by the Metropolitan Police from Cowes, Isle of Wight, Hampshire. 8 crew will participate.
-        </description>
-        <availability>
-            8
-        </availability>
-        <price>400</price>
-    </event>
+    <events>
+        <event>
+            <title>SYP Offshore Sailing Section AGM</title>
+            <start_date>
+                <date>20th</date>
+                <month>February</month>
+                <year>2015</year>
+            </start_date>
+            <description>
+                Please contact the secretary, Noel Lightfoot through SYPsailing@gmail.,com for details of the location and time of the AGM. All section members are welcome.
+            </description>
+            <availability>
+                10
+            </availability>
+            <price>20</price>
+        </event>
+        <event>
+            <title>7 Day Cruise Around The Isle Of Skye</title>
+            <start_date>
+                <date>16th</date>
+                <month>May</month>
+                <year>2015</year>
+            </start_date>
+            <description>
+                Circumnavigation of the Isle of Skye on the west coast of Scotland. We have reserved a Beneteau Oceanis 393 yacht with www.skyeyachts.co.uk. (Further yachts are available subject to the level of interest). The cost per person is £300 to £350 to include the fuel, gas, mooring fees, outboard motor for tender, and provisioning for breakfast, lunch and 2 evening meals on board. A deposit of £75 per person is required to secure a berth.
+            </description>
+            <availability>
+                10
+            </availability>
+            <price>300</price>
+            <deposit>
+                75
+            </deposit>
+        </event>
+        <event>
+            <title>Skippers Training</title>
+            <start_date>
+                <date>30th</date>
+                <month>March</month>
+                <year>2015</year>
+            </start_date>
+            <end_date>
+                <date>4th</date>
+                <month>April</month>
+                <year>2015</year>
+            </end_date>
+            <description>
+                Section skippers will take part in a 5 day offshore training week to develop and hone skills. This follows on from the successful training trips since 2011. We have typically had a variety of winds up to force 9, giving skippers the opportunity to improve their handling under power and sail and gain confidence and experience. Members should hold a minimum of Day Skipper practical qualification and be prepared to skipper any trip approved by the committee for 2015. Please contact the Section Secretary, Noel Lightfoot through SYPsailing@gmail.com for more details.
+            </description>
+            <availability>
+                0
+            </availability>
+            <price>20</price>
+        </event>
+        <event>
+            <title>
+                PSUK Offshore Sailing Championships / World Police Champs
+            </title>
+            <start_date>
+                <date>18th</date>
+                <month>May</month>
+                <year>2015</year>
+            </start_date>
+            <end_date>
+                <date>22nd</date>
+                <month>May</month>
+                <year>2015</year>
+            </end_date>
+            <description>
+                South Yorkshire Police Offshore Sailing Section are looking for members who wish to crew, and a qualified skipper to enter a yacht into the forthcoming Regatta, being hosted by the Metropolitan Police from Cowes, Isle of Wight, Hampshire. 8 crew will participate.
+            </description>
+            <availability>
+                8
+            </availability>
+            <price>400</price>
+        </event>
+    </events>
     <navigation>
-        <item>
-            <title>Home</title>
-            <route>home</route>
-        </item>
-        <item>
-            <title>Events</title>
-            <route>events</route>
-        </item>
-        <item>
-            <title>Training</title>
-            <route>training</route>
-        </item>
-        <item>
-            <title>SYP challenge 2013</title>
-            <route>sypchallenge</route>
-        </item>
-        <item>
-            <title>Gallery</title>
-            <route>Route is something</route>
-        </item>
-        <item>
-            <title>Useful links</title>
-            <route>Route is something</route>
-        </item>
-        <item>
-            <title>Blogs</title>
-            <route>Route is something</route>
-        </item>
-        <item>
-            <title>Committee</title>
-            <route>committee</route>
-        </item>
-        <item>
-            <title>Links</title>
-            <route>links</route>
-        </item>
-        <item>
-            <title>Contact us</title>
-            <route>Route is something</route>
-        </item>
+        <item title="Home" route="home" icon="home" />
+        <item title="Events" route="events" icon="calendar" />
+        <item title="Training" route="training" icon="lightbulb-o" />
+        <item title="SYP challenge 2013" route="sypchallenge" icon="anchor" />
+        <item title="Committee" route="committee" icon="users" />
     </navigation>
+    <months>
+        <month name="February" />
+        <month name="March" />
+        <month name="May" />
+    </months>
+    <images>
+        <img location="greece" filepath="img/greece/166757_orig.jpg" month="september" year="2012" />
+        <img location="greece" filepath="img/greece/3065429_orig.jpg" month="september" year="2012" />
+        <img location="greece" filepath="img/greece/3284936_orig.jpg" month="september" year="2012" />
+        <img location="greece" filepath="img/greece/4732954_orig.jpg" month="september" year="2012" />
+        <img location="greece" filepath="img/greece/5214047_orig.jpg" month="september" year="2012" />
+        <img location="greece" filepath="img/greece/5398436_orig.jpg" month="september" year="2012" />
+        <img location="greece" filepath="img/greece/6401698_orig.jpg" month="september" year="2012" />
+        <img location="greece" filepath="img/greece/6748066_orig.jpg" month="september" year="2012" />
+        <img location="greece" filepath="img/greece/7136171_orig.jpg" month="september" year="2012" />
+        <img location="greece" filepath="img/greece/7865984_orig.jpg" month="september" year="2012" />
+        <img location="greece" filepath="img/greece/8825202_orig.jpg" month="september" year="2012" />
+        <img location="greece" filepath="img/greece/9299282_orig.jpg" month="september" year="2012" />
+        <img location="home" filepath="img/home/2075883_orig.jpg" />
+        <img location="home" filepath="img/home/2796307_orig.jpg" />
+        <img location="home" filepath="img/home/4201879_orig.jpg" />
+        <img location="home" filepath="img/home/5212545_orig.jpg" />
+        <img location="home" filepath="img/home/5254136_orig.jpg" />
+        <img location="home" filepath="img/home/6684346_orig.jpg" />
+        <img location="home" filepath="img/home/7044534_orig.jpg" />
+        <img location="home" filepath="img/home/8062292_orig.jpg" />
+    </images>
 </root>

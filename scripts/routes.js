@@ -9,7 +9,11 @@ APP.config(function($routeProvider) {
         '/sypchallenge',
         '/styleguide',
         '/committee',
-        '/links'
+        '/links',
+        '/gallery',
+        '/gallery/:month/:year/:location',
+        '/gallery/:month/:year',
+        '/gallery/:month'
     ], function(val) {
         $routeProvider
             .when(val, {

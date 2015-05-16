@@ -29,7 +29,15 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 300; }
 
+hr.large {
+  border-top: 5px solid #eee; }
+
+a.currently_filtered {
+  color: #F44336;
+  text-decoration: underline; }
+
 body {
+  overflow-x: hidden;
   background-color: #f3f3f3; }
   body .page-content {
     margin-right: 30px; }
@@ -45,10 +53,12 @@ body {
 .btn {
   border-radius: 0px; }
 
+.navigation.mobile {
+  margin: 15px; }
+
 .navigation {
   background-color: #2196F3;
-  color: white;
-  height: 100%; }
+  color: white; }
   .navigation a:hover {
     color: #F44336;
     color: red;
@@ -60,13 +70,15 @@ body {
     padding: 0px; }
     .navigation ul.nav-list a {
       padding-left: 20px; }
-    .navigation ul.nav-list .main-nav-tab.active {
+    .navigation ul.nav-list .main-nav-tab.active, .navigation ul.nav-list li.sub-nav-tab.active {
       background-color: #f3f3f3;
       border-left-color: red;
       border-left-style: solid;
       border-left-width: 5px; }
-      .navigation ul.nav-list .main-nav-tab.active a {
+      .navigation ul.nav-list .main-nav-tab.active a, .navigation ul.nav-list li.sub-nav-tab.active a {
         padding-left: 15px;
+        color: #F44336; }
+      .navigation ul.nav-list .main-nav-tab.active i, .navigation ul.nav-list li.sub-nav-tab.active i {
         color: #F44336; }
     .navigation ul.nav-list li.main-nav-tab {
       list-style: none;
@@ -93,10 +105,12 @@ http://jsfiddle.net/livibetter/HV9HM/
     z-index: 10000;
     border-radius: 0 0 0.5em 0.5em;
 } */
+.navigation.mobile {
+  margin: 15px; }
+
 .navigation {
   background-color: #2196F3;
-  color: white;
-  height: 100%; }
+  color: white; }
   .navigation a:hover {
     color: #F44336;
     color: red;
@@ -108,13 +122,15 @@ http://jsfiddle.net/livibetter/HV9HM/
     padding: 0px; }
     .navigation ul.nav-list a {
       padding-left: 20px; }
-    .navigation ul.nav-list .main-nav-tab.active {
+    .navigation ul.nav-list .main-nav-tab.active, .navigation ul.nav-list li.sub-nav-tab.active {
       background-color: #f3f3f3;
       border-left-color: red;
       border-left-style: solid;
       border-left-width: 5px; }
-      .navigation ul.nav-list .main-nav-tab.active a {
+      .navigation ul.nav-list .main-nav-tab.active a, .navigation ul.nav-list li.sub-nav-tab.active a {
         padding-left: 15px;
+        color: #F44336; }
+      .navigation ul.nav-list .main-nav-tab.active i, .navigation ul.nav-list li.sub-nav-tab.active i {
         color: #F44336; }
     .navigation ul.nav-list li.main-nav-tab {
       list-style: none;
@@ -178,5 +194,58 @@ http://jsfiddle.net/livibetter/HV9HM/
   color: #fff;
   font-size: 60px;
   line-height: 150px; }
+
+.widget {
+  height: 200px;
+  overflow-y: scroll;
+  overflow-x: hidden; }
+
+.widget.widget-large {
+  height: 800px; }
+
+.widget.widget-medium {
+  height: 400px; }
+
+.widget.widget-small {
+  height: 200px; }
+
+/* 
+
+Scroll bar CSS: 
+
+http://www.yodelay.com/development/google-style-scrollbars-css/ 
+
+*/
+::-webkit-scrollbar {
+  width: 15px; }
+
+::-webkit-scrollbar-track {
+  background: #FFF;
+  -webkit-box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.1); }
+
+::-webkit-scrollbar-thumb {
+  background: #CCC;
+  -webkit-box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.2); }
+
+::-webkit-scrollbar-thumb:hover {
+  background: #AAA; }
+
+::-webkit-scrollbar-thumb:active {
+  background: #888;
+  -webkit-box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.3); }
+
+.zoom_img img {
+  -moz-transition: -moz-transform 0.2s ease-in;
+  -webkit-transition: -webkit-transform 0.2s ease-in;
+  -o-transition: -o-transform 0.2s ease-in;
+  z-index: 0; }
+
+.zoom_img img:hover {
+  cursor: pointer;
+  position: relative;
+  z-index: 9;
+  -moz-transform: scale(2);
+  -webkit-transform: scale(2);
+  -o-transform: scale(2); }
 
 /*# sourceMappingURL=core.css.map */

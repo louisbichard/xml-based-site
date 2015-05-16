@@ -14,7 +14,7 @@
 <body>
     <div class="top-banner">
         <img class="img-responsive" src="img/sailing/bay1.jpg" height="1936" width="1936">
-        <div class="website-title">
+        <div class="website-title hidden-xs">
             <h1 class="text-center cursive">South Yorkshire Police </h1>
             <h1 class="text-center cursive">Offshore Sailing</h1>
         </div>
@@ -22,29 +22,22 @@
     </div>
     <div ng-controller="mainController">
         <div class="row">
-            <div class="col-md-2 col-sm-2 col-xs-2">
-                <div id="sticky-anchor"></div>
-                <div id="sticky" class="navigation stick">
-                    {{magic_params}}
-                    <br>
-                    <xml-render data-xml="xml/main.xml" data-xslt="xslt/navigation.xslt" data-xsl-params="{{test_params}}"></xml-render>
+            <div class="col-xs-12 col-sm-12 visible-xs visible-sm">
+                <div id="sticky" class="navigation mobile stick">
+                    <div xml-render xml="'xml/main.xml'" xslt="'xslt/navigation_mobile.xslt'"></div>
                 </div>
             </div>
-            <div class="col-md-10 col-sm-10 col-xs-10">
+        </div>
+        <div class="row">
+            <div class="col-md-2 col-sm-2 hidden-xs hidden-sm">
+                <div id="sticky-anchor"></div>
+                <div id="sticky" class="navigation stick">
+                    <div xml-render xml="'xml/main.xml'" xslt="'xslt/navigation.xslt'"></div>
+                </div>
+            </div>
+            <div class="col-md-10 col-sm-12 col-xs-12">
                 <div id="content-wrapper">
                     <div class="page-content">
-                        <!-- <div class="page_breadcrumbs">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <h4>
-                                    <span ng-repeat="path in current_paths"> 
-                                        <a class="breadcrumb_link" href="#{{path}}">{{path}}</a>
-                                        <span ng-if="current_paths.length > 1 && current_paths.length !== $index + 1"> &gt; </span>
-                                    </span>
-                                    </h4>
-                                </div>
-                            </div>
-                        </div> -->
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="content_panel">
@@ -59,30 +52,25 @@
         </div>
     </div>
     <div id="footer">
+        <br>
         <div class="row">
-            <br>
-            <div class="col-md-2 col-md-offset-4">
+            <div class="col-md-12">
+                <p class="text-center">South Yorkshire Police</p>
+            </div>
+        </div>
+        <div class="row">            
+            <div class="col-md-1 col-md-offset-5">
                 <p class="text-center">
                     <a href="https://twitter.com/sypsailing">
                         <i class="fa fa-twitter"></i>
                     </a>
                 </p>
             </div>
-            <div class="col-md-2">
+            <div class="col-md-1">
                 <p class="text-center">
                     <a href="https://www.facebook.com/sypoffshoresailing">
                         <i class="fa fa-facebook"></i>
                     </a>
-                </p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <p class="text-center">
-                    <i class="fa fa-copyright"></i> South Yorkshire Police
-                </p>
-                <p class="text-center">
-                    <a href="#styleguide">Styleguide</a>
                 </p>
             </div>
         </div>
@@ -98,6 +86,7 @@
     <script type="text/javascript " src="bower_components/angular-route/angular-route.min.js "></script>
     <script src='./bower_components/angular-bootstrap/ui-bootstrap.min.js' type='text/javascript'></script>
     <script src='./bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js' type='text/javascript'></script>
+    <script src='./bower_components/moment/min/moment.min.js' type='text/javascript'></script>
     <script type="text/javascript " src="scripts/magic.xml.js "></script>
     <script type="text/javascript " src="scripts/app.js "></script>
     <script type="text/javascript " src="scripts/xml-render.directive.js"></script>

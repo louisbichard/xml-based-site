@@ -36,3 +36,12 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
 }
+
+hr.large {
+	border-top: 5px solid #eee;
+}
+
+a.currently_filtered {
+	color: $accent;
+	text-decoration: underline; 
+}

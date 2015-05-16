@@ -1,7 +1,9 @@
+.navigation.mobile {
+    margin: 15px;
+}
 .navigation {
     background-color: $main;
     color: white;
-    height: 100%;
     a:hover {
         color: $accent;
         color: red;
@@ -16,10 +18,13 @@
         a {
             padding-left: 20px;
         }        
-        .main-nav-tab.active {
+        .main-nav-tab.active, li.sub-nav-tab.active {
             a {
                 padding-left: 15px;
                 color: $accent;
+            }
+            i {
+                 color: $accent;   
             }
             background-color: $canvas-colour;
             border-left: {
@@ -28,6 +33,8 @@
                 width: 5px;
             }
         }
+
+
         li.main-nav-tab {
             list-style: none;
             padding: 5px;
