@@ -1,14 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE root [
     
-    <!-- NOTE: Introduction section -->
+<!-- NOTE: Introduction section -->
+
 <!ELEMENT introduction (#PCDATA)>
+
 <!-- NOTE: Commitee section -->
+
 <!ELEMENT commitee (member*)>
-<!ELEMENT member (#PCDATA)>
+<!ELEMENT member (#PCDATA)> 
 <!ATTLIST member name CDATA "No name given">
 <!ATTLIST member role CDATA "No role given">
 <!ATTLIST member img CDATA #REQUIRED>
+
+<!-- NOTE: SYP Challenge section -->
+<!ELEMENT sypchallenge (competitions*)> 
+<!ELEMENT competitions (competition*)> 
+<!ATTLIST competition name CDATA "No Competition Title">
+<!ELEMENT competition (team*)> 
+
 ]>
 <root>
     <committee>
